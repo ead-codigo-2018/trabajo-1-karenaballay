@@ -104,9 +104,9 @@ img{
   }
 
 .contenido {
-  grid-column-start: 1;
+  grid-column-start: 2;
   grid-column-end: 4;
-  grid-row-start: 3;
+  grid-row-start: 2;
   grid-row-end: 4;
   padding: 1em;
   background-color: white;
@@ -145,3 +145,10 @@ input, textarea{
        padding: 10px;
        margin-bottom: 25px;
 }
+
+.galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
